@@ -97,7 +97,7 @@ export default function Hero({ onUrlSubmit }: HeroProps) {
         <div className="mt-8">
           <p className="text-sm text-muted-foreground mb-3">Try these popular websites:</p>
           <div className="flex flex-wrap justify-center gap-2">
-            {["apple.com", "nike.com", "coca-cola.com", "tesla.com"].map((example) => (
+            {["https://socialbeta.com/", "https://www.digitaling.com/", "https://www.adquan.com/", "https://www.woshipm.com/"].map((example) => (
               <button
                 key={example}
                 onClick={() => setUrl(example)}
